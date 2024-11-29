@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+  <div class="container1">
+    <div class="left-side">
+      <img class="imageOverlay" src="images/kuromilay2.png" height="100px" width="100px">
+        <img src="images/received_665981468758964.jpeg" class="full-image">
+    </div>
+    <div class="right-side">
+      <img class="imageOverlay1" src="images/kuromilay2.png" height="100px" width="100px">
+
+      <div class="container">
+
+        <h1 class="happy">Happy</h1>
+        <h1 class="bday">Birthday</h1>
+        <h1 class="baby">My Baby</h1>
+        <p>"November 30, 2024"</p>
+
+        <h1 class="age">AGE: <span id="age">20</span></h1>
+        <button id="wishButton">Make a Wish</button>
+        <button id="openButton">Open</button>
+
+        <div id="overlay" class="overlay">
+            <div class="overlay-content">
+                <p class="text">Congratulations baby, I love you! Enjoy your day!</p>
+                <button id="closeOverlay">Close</button>
+            </div>
+        </div>
+        <div id="openOverlay" class="overlay"> <!-- New overlay for Open button -->
+            <div class="overlay-content">
+                <button id="closeOpenOverlay" class="close-button">X</button> <!-- Close button -->
+                <p>
+                  Hi Baby ko! Happy birthday to the best girlfriend in the whole world! 
+                  Sobrang blessed ako kasi nakilala kita at dahil nandito ka palagi para 
+                  sa akin. Each day with you feels like a gift na hindi ko kayang palitan. 
+                  Sa bawat ngiti mo, napapawi ang pagod ko, and I feel so lucky na ikaw 
+                  ang kasama ko. Hindi ko ma-imagine ang buhay ko nang wala ka. You make 
+                  everything feel brighter, masaya, and kahit gaano kahirap ang araw, you 
+                  make it better. Thank you for all the love, care, at sa patience na 
+                  binibigay mo sa akin kahit minsan ang kulit ko. Alam kong hindi ako 
+                  perfect, pero gusto ko lang ipaalam sa’yo na gagawin ko ang lahat para 
+                  maparamdam sa’yo kung gaano ka ka-special sa akin. On your special day, 
+                  I wish na matupad ang lahat ng dreams mo, at sana ako ang kasama mo sa 
+                  bawat journey na tatahakin mo. Lagi akong nandito para sa’yo, kahit anong 
+                  mangyari. Happy birthday, baby ko. Ikaw lang ang mundo ko, at sana 
+                  maramdaman mo kung gaano kita kamahal. Sana ay magustuhan mo itong munting 
+                  regalo ko. Ginawa ko ito nang maaga gamit ang coding nung 10/24/2024 para 
+                  ready na at wala nang problema. Mas maganda kasi kapag maaga ko itong nagawa 
+                  para mapaghandaan at mas maraming maipaglalagay. I love you so much morethan 
+                  you love me more than anything and anyone else in the world always and forever 
+                  no matter what happens mamahalin parin kita mwuuuuuuaaahhhhh Happy Bday ulit 
+                  baby ko!
+                </p>
+                <button id="nextPageButton">Next Page</button>
+            </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bubble-container">
+    <!-- Add more bubbles for increased density -->
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <!-- Add more as needed -->
+  </div>
+  
+
+<audio id="birthdayMusic" src="music/happy-birthday-music-box-version-117317.mp3"></audio>
+<audio id="trumpetMusic" src="music/tada-fanfare-a-6313.mp3"></audio>
+
+<script src="script.js"></script> <!-- Link to external JavaScript -->
+</body>
+</html>
